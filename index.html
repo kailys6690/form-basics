@@ -17,22 +17,22 @@
         <form action="http://www.w3schools.com/tags/demo_form.asp" method="get">
 
             Name:
-            <input type="text" name="name"><br> E-mail:
-            <input type="email" name="email"><br>
+            <input type="text" name="name" required><br> E-mail:
+            <input type="email" name="email" required><br>
 
             <!--add your own inputs below-->
             Name of your tree:
-            <input type="text" name="name"><br> Will you have a real tree or fake tree?
+            <input type="text" name="name" required><br> Will you have a real tree or fake tree?
             <input type="radio" name="type" value="fake">Fake Tree
 
-            <input type="radio" name="type" value="real">Real Tree<br> What color lights will you choose:
-            <input type="radio" name="color" value="white">White lights
+            <input type="radio" name="type" value="real" required>Real Tree<br> What color lights will you choose:
+            <input type="radio" name="color" value="white" required>White lights
 
             <input type="radio" name="color" value="multicolor">Multi color lights
 
             <input type="radio" name="color" value="other">Other..<br> If other, please eneter what color lights you would chose:
             <input type="text" name="choice"><br> Please select the size of your tree:
-            <select name="size">
+            <select name="size" required>
                 <option value="extraSmall" selected>3'</option>
                 <option value="small" selected>4'5</option>
                 <option value="average" selected>6'</option>
@@ -45,7 +45,7 @@
             <input type="checkbox" name="ornament-5" value="bird">Bird Ornaments
             <input type="checkbox" name="ornament-6" value="cane">Candy Cane Ornaments
             <input type="checkbox" name="ornament-7" value="snowgflake">Snowflake Ornaments
-            <input type="checkbox" name="ornament-8" value="star"> Tree Top Star<br> Any additional stuff you would like on your christmas tree?
+            <input type="checkbox" name="ornament-8" value="star" > Tree Top Star<br> Any additional stuff you would like on your christmas tree?
             <textarea name="message"></textarea><br>
 
 
